@@ -25,6 +25,18 @@
 <!-- End Facebook Pixel Code -->
 
 <style>
+body,html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.img-container {
+  height: 100vh;
+  max-height: 100%;
+  overflow: hidden;
+}
 .img {
   height: auto;
   width: 85vw;
@@ -70,7 +82,9 @@
 </head>
   <body>
     <div class="flex-container">
+      <div class="img-container">
       <img class="img" src="images/AD-Motto-Tee-Maroon.png">
+      </div>
       <div class="links">
       <a class="one" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'Subscribe');">Visit Beardog</a>
       <a class="two" href="https://teespring.com/stores/beardogbrand" onclick="fbq('track', 'Subscribe');">Visit Beardog</a>
